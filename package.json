@@ -14,8 +14,7 @@
         "cli-color": "1.1.0",
         "dateformat": "1.0.12",
         "base58-native": "0.1.4",
-        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
-        "cryptonote-util": "git://github.com/kevacoin-project/node-cryptonote-util#xmr-Nan-2.0"
+        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git"
     },
     "engines": {
         "node": ">=0.10"

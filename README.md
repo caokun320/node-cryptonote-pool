@@ -90,8 +90,6 @@ Usage
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
 * libssl required for the node-multi-hashing module
   * For Ubuntu: `sudo apt-get install libssl-dev`
-* Boost is required for the cryptonote-util module
-  * For Ubuntu: `sudo apt-get install libboost-all-dev`
 
 
 ##### Seriously
@@ -229,8 +227,8 @@ Explanation for each field:
         "invalidPercent": 25, //What percent of invalid shares triggers ban
         "checkThreshold": 30 //Perform check when this many shares have been submitted
     },
-    /* [Warning: several reports of this feature being broken. Proposed fix needs to be tested.] 
-        Slush Mining is a reward calculation technique which disincentivizes pool hopping and rewards 
+    /* [Warning: several reports of this feature being broken. Proposed fix needs to be tested.]
+        Slush Mining is a reward calculation technique which disincentivizes pool hopping and rewards
         'loyal' miners by valuing younger shares higher than older shares. Remember adjusting the weight!
         More about it here: https://mining.bitcoin.cz/help/#!/manual/rewards */
     "slushMining": {
