@@ -16,24 +16,24 @@
 
     "poolServer": {
         "enabled": true,
-        "clusterForks": "auto",
-        "poolAddress": "48Y4SoUJM5L3YXBEfNQ8bFNsvTNsqcH5Rgq8RF7BwpgvTBj2xr7CmWVanaw7L4U9MnZ4AG7U6Pn1pBhfQhFyFZ1rL1efL8z",
+        "clusterForks": 1,
+        "poolAddress": "TJVK3PEyUoPJRzaY76cFcP7uVzJh9DpNcY",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
             {
                 "port": 3333,
-                "difficulty": 100,
+                "difficulty": 8000,
                 "desc": "Low end hardware"
             },
             {
                 "port": 5555,
-                "difficulty": 2000,
+                "difficulty": 16000,
                 "desc": "Mid range hardware"
             },
             {
                 "port": 7777,
-                "difficulty": 10000,
+                "difficulty": 30000,
                 "desc": "High end hardware"
             },
             {
@@ -77,14 +77,14 @@
         "interval": 600,
         "maxAddresses": 50,
         "mixin": 3,
-        "minPayment": 100000000000,
-        "denomination": 100000000000
+        "minPayment": 100000000,
+        "denomination": 10000000
     },
 
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
-        "depth": 60,
+        "depth": 10,
         "poolFee": 2,
         "devDonation": 0.1,
         "coreDevDonation": 0.1
@@ -102,12 +102,14 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 18081
+        "port": 19332,
+        "user": "yourusername",
+        "password": "yourpassword"
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 8082
+        "port": 19332
     },
 
     "redis": {
