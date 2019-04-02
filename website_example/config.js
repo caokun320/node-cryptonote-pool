@@ -1,14 +1,14 @@
-var api = "http://cryppit.com:8117";
+var api = "http://127.0.0.1:8117";
 
 var coinUnits = 1000000000000;
 
-var poolHost = "cryppit.com";
+var poolHost = "127.0.0.1";
 
 var irc = "irc.freenode.net/#monero-pools";
 
-var email = "support@cryppit.com";
+var email = "support@kevapool.com";
 
-var cryptonatorWidget = ["XMR-BTC", "XMR-USD", "XMR-EUR", "XMR-GBP"];
+var cryptonatorWidget = [];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
