@@ -1,6 +1,6 @@
 var api = "http://127.0.0.1:8117";
 
-var coinUnits = 1000000000000;
+var coinUnits = 100000000;
 
 var poolHost = "127.0.0.1";
 
