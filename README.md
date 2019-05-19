@@ -1,9 +1,7 @@
-## This repo is looking for maintainers! Please reach out if interested.
---------
-
-
 node-cryptonote-pool
 ====================
+
+This repo is is forked from [node-cryptonote-pool](https://github.com/zone117x/node-cryptonote-pool) by zone117x with support for Kevacoin.
 
 High performance Node.js (with native C addons) mining pool for CryptoNote based coins such as Bytecoin, Monero, QuazarCoin, HoneyPenny, etc..
 Comes with lightweight example front-end script which uses the pool's AJAX API.
